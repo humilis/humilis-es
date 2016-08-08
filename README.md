@@ -2,7 +2,6 @@ Humilis plug-in to deploy an Elasticsearch domain
 ===================================================
 
 [![PyPI](https://img.shields.io/pypi/v/humilis-es.svg?style=flat)](https://pypi.python.org/pypi/humilis-es)
-[![Build Status](https://travis-ci.org/humilis/humilis-es.svg?branch=master)](https://travis-ci.org/humilis/humilis-es)
 
 A [humilis][humilis] plug-in layer that deploys an
 [Elasticsearch][es] domain into a humilis environment.
@@ -51,6 +50,14 @@ domain with:
 ```
 make testi
 ```
+
+
+## Layer parameters
+
+* `domain_name`: The actual name will be `[envname]-[stage]-[domain_name]`
+* `whitelisted_ips`: A list of whitelisted CIDRs or IPs.
+* `iam_users_arns`: These users will be given full access to the ES domain.
+* `iam_roles_arns`: These roles will be given full access to the ES domain.
 
 
 ## More information
