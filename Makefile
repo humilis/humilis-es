@@ -11,7 +11,7 @@ HUMILIS_ENV := tests/integration/es
 
 # install dev dependencies, create layers directory
 develop: .env
-	.env/bin/pip install -r requirements-test.txt
+	.env/bin/pip install -r requirements-dev.txt
 
 # run integration tests
 test: .env
