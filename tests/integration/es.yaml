@@ -1,0 +1,9 @@
+---
+es:
+    description:
+        A dummy environment used for testing humilis-es plug-in
+
+    layers:
+        - layer: es
+          layer_type: es
+          domain_name: dummy
