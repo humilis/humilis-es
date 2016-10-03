@@ -48,6 +48,6 @@ resources:
                         IpAddress:
                             "aws:SourceIp":
                                 {% for ip in whitelisted_ips %}
-                                - ip
+                                - {{ip}}
                                 {% endfor %}
                     {% endif %}
