@@ -1,9 +1,11 @@
 ---
-es:
+humilis-es:
     description:
         A dummy environment used for testing humilis-es plug-in
 
     layers:
         - layer: es
           layer_type: es
+          whitelisted_ips:
+            - "24.132.203.21/32"
           domain_name: dummy

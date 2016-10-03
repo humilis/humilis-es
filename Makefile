@@ -3,7 +3,7 @@ PIP := .env/bin/pip
 PYTHON := .env/bin/python
 TOX := .env/bin/tox
 STAGE := DEV
-HUMILIS_ENV := tests/integration/es
+HUMILIS_ENV := tests/integration/humilis-es
 
 # create virtual environment
 .env:

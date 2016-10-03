@@ -38,7 +38,7 @@ resources:
                     {% if whitelisted_ips %}
                     - Effect: Allow
                       Principal:
-                        AWS: *
+                        AWS: "*"
                       Action: "es:*"
                       Resource:
                         "Fn::Join":

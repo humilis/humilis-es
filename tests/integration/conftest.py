@@ -16,7 +16,7 @@ def settings():
         stage=os.environ.get("STAGE", "DEV"),
         update=os.environ.get("UPDATE", "yes"),
         destroy=os.environ.get("DESTROY", "yes"),
-        environment_path="tests/integration/es.yaml")
+        environment_path="tests/integration/humilis-es.yaml")
 
 
 @pytest.yield_fixture(scope="session")

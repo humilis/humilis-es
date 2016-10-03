@@ -1,2 +1,5 @@
 ipython
 pypandoc
+
+-e .
+git+https://github.com/humilis/humilis

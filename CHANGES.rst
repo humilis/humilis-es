@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.5
+-----
+
+- Bugfix: broken parameter whitelisted_ips
+
 0.0.2
 -----
 
