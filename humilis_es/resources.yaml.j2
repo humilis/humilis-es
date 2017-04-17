@@ -5,6 +5,11 @@ resources:
         Properties:
             DomainName: {{_env.name|lower}}-{{_env.stage|lower}}-{{domain_name|lower}}
             ElasticsearchVersion: {{es_version}}
+            EBSOptions:
+                EBSEnabled: true
+                Iops: {{volume_iops}}
+                VolumeSize: {{volume_size}}
+                VolumeType: {{volume_type}}
             AccessPolicies:
                 Version: "2012-10-17"
                 Statement:
